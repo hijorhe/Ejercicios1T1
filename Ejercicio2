@@ -1,0 +1,23 @@
+package com;
+import java.util.Scanner;
+
+public class DOS {
+
+    public static void main(String[] args){
+
+        int num1=0;
+        Scanner leer=new Scanner(System.in);
+
+        System.out.println("Ingresa precio");
+        num1=leer.nextInt();
+
+        ivaprecio(num1);
+
+
+    }
+    static void ivaprecio (int num1){
+
+        double precio = (num1 * .16) + num1;
+        System.out.println(precio + " Precio con IVA");
+    }
+}
