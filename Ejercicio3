@@ -1,0 +1,20 @@
+package com.estructurascontrol.repetitivas;
+
+public class TRES {
+
+    public static void main(String[] args) {
+
+        String a = "Luis";
+        String b = "Jorge";
+        String c = "Luis";
+        String d = "Jorge";
+        String e = "Luis";
+
+        int cont=0;
+        while (cont<10){
+            cont ++;
+            System.out.println( a+b+c+d+e);
+        }
+
+    }
+}
